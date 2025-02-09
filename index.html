@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Color Game</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="quriess.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="gameInstruction">Guess the correct color!</h1>
+      <h2 class="gameStatus" data-testid="gameStatus"></h2>
+      <div class="colorBox" data-testid="colorBox"></div>
+      <div class="colorOptions">Hello World</div>
+      <div class="box">
+        <div class="scoreN" data-testid="score">
+          Score: <span class="scoreNum">0</span>
+        </div>
+        <div class="newGame game" data-testid="newGameButton">New Game</div>
+      </div>
+    </div>
+
+    <div class="happy-emoji hidden">😃Click Me</div>
+    <div class="sad-emoji hidden">😥</div>
+    <div class="color red"></div>
+    <div class="color yellow"></div>
+    <div class="color green"></div>
+    <div class="color pink"></div>
+    <div class="color black"></div>
+    <div class="color orange"></div>
+    <div class="color purple"></div>
+    <div class="color brown"></div>
+    <div class="color blue"></div>
+    <div class="color maroon"></div>
+
+    <div class="container-2 hidden">
+      <!-- <div class="main-game">Welcome to the main Game</div> -->
+      <section class="player player--0 player--active">
+        <h2 class="name" id="name--0">Player 1</h2>
+        <p class="score" id="score--0">43</p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current--0">0</p>
+        </div>
+      </section>
+
+      <section class="player player--1">
+        <h2 class="name" id="name--1">Player 2</h2>
+        <p class="score" id="score--1">24</p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current--1">0</p>
+
+          <div class="colorBox colorBoxNew" data-testid="colorBox"></div>
+          <div class="colorOptionNew"></div>
+          <button class="btn btn--new">🔄 New game</button>
+          <button class="btn btn--hold">📥 Hold</button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

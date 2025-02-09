@@ -1,0 +1,54 @@
+@media (max-width: 56.3em) {
+  html {
+    font-size: 52.5%;
+  }
+  .container-2 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .colorBoxNew {
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20%;
+    height: 10vh;
+  }
+
+  .colorOptionNew {
+    position: absolute;
+    left: 55%;
+    top: 51%;
+    transform: translateY(-50%);
+    height: 18vh;
+    width: 30%;
+  }
+
+  .colorOptionN {
+    width: 26px;
+    height: 26px;
+  }
+  .btn--hold {
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+  }
+
+  .container {
+    padding: 3rem;
+  }
+
+  .player {
+    width: 100%;
+    padding: 10rem 3rem 5rem;
+  }
+  .hidden {
+    display: none;
+  }
+}
